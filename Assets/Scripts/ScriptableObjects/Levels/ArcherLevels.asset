@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a210489db4d1f14fa53404c1876469c, type: 3}
+  m_Name: ArcherLevels
+  m_EditorClassIdentifier: 
+  m_levelStatsList:
+  - RangeLevel: 7
+    DamageLevel: 10
+    AttackSpeedLevel: 1
+    DetectionLevel: 0
+    upgradeManaLevel: 1000
+  - RangeLevel: 8
+    DamageLevel: 15
+    AttackSpeedLevel: 0.8
+    DetectionLevel: 1
+    upgradeManaLevel: 2000
+  - RangeLevel: 10
+    DamageLevel: 25
+    AttackSpeedLevel: 0.6
+    DetectionLevel: 1
+    upgradeManaLevel: 3000
